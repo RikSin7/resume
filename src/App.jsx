@@ -126,6 +126,7 @@ export default function App() {
                                 <div className="flex flex-wrap gap-1">
                                     {[
                                         "React.js",
+                                        "Next.js",
                                         "JavaScript",
                                         "TypeScript",
                                         "React Native",
@@ -164,8 +165,9 @@ export default function App() {
                                 </h3>
                                 <div className="flex flex-wrap gap-1">
                                     {[
+                                        "HTML5",
+                                        "CSS3",
                                         "Tailwind CSS",
-                                        "Vanilla CSS",
                                         "Motion",
                                     ].map((skill) => (
                                         <span
@@ -263,7 +265,7 @@ export default function App() {
                             </div>
                             <div className="flex items-center gap-1 text-xs text-gray-600 whitespace-nowrap ml-4">
                                 <Calendar className="w-3 h-3" />
-                                <span>Mar 2025 - Present</span>
+                                <span>Mar 2025 - Mar 2026</span>
                             </div>
                         </div>
 
@@ -360,7 +362,7 @@ export default function App() {
                                         <span>Live</span>
                                     </a>
                                     <a
-                                        href="https://github.com/RikSin7/bingebank"
+                                        href="https://github.com/RikSin7/bingebank-2.0"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="inline-flex items-center gap-1 px-2 py-0.5 bg-blue-50 text-blue-700 rounded-full text-[10px] hover:bg-blue-100 transition"
@@ -376,8 +378,9 @@ export default function App() {
                                 </span>
                                 <div className="flex flex-wrap gap-2">
                                     {[
-                                        "React.js",
-                                        "Redux",
+                                        "Next.js (React.js)",
+                                        "TypeScript",
+                                        "Redux Toolkit",
                                         "Tailwind CSS",
                                         "TMDB API",
                                         "Motion",
@@ -396,6 +399,8 @@ export default function App() {
                                 <li>
                                     Engineered a{" "}
                                     <span className="font-semibold text-gray-900">
+                                        high-performance{" "}
+                                        <span className="font-normal">and</span>{" "}
                                         fully responsive
                                     </span>{" "}
                                     Movie/TV Show discovery app with{" "}
@@ -463,7 +468,6 @@ export default function App() {
                                         "React.js",
                                         "TypeScript",
                                         "Tailwind CSS",
-                                        "Vite",
                                         "React Virtuoso",
                                         "Recharts",
                                     ].map((tech) => (
